@@ -1,27 +1,57 @@
 #include <stdio.h>
 
 int main() {
-    int num1;
-    printf("Enter first number: ");   
-    scanf("%d",&num1);
-  
-    int num2;
-    printf("Enter first number: ");
-    scanf("%d",&num2);
-    
-    int num3;
-    printf("Enter first number: ");
-    scanf("%d",&num3);
-    
-    int num4;
-    printf("Enter first number: ");
-    scanf("%d",&num4);
-    
-    int num5;
-    printf("Enter first number: ");
-    scanf("%d",&num5);
-    
-    printf("Mean = %f ", (num1+num2+num3+num4+num5)/5.0);
-}
 
+    
+
+    int n{5]; 
+    for(int i = 0; i < 5; i++) {
+        printf("Enter number: ");
+        scanf("%d", &n[i]);
+        printf("new int: %d\n", n[i]);
+    } 
+   printf("works"); 
+    
+    int sum = 0;
+    for( int i = 0; i < 5; i = i + 1) {
+        sum = n[i] + sum;
+    }
+    printf( "Mean: %f", sum/5.0);
+ 
+    for( int i = 0; i < 4; i = i + 1) {
+        for( int j = 0; j < 4; j = j + 1) {
+            if( n[j] > n[j + 1] ) { 
+                int temp = n[j]; 
+                n[j] = n[j + 1]; 
+                n[j + 1]temp;
+            }
+        }
+    }
+    printf( "Median: %d", n[2]);
+    
+    int mode = 0, num = 0, i, j;
+ 
+      for( int i = 0; i < 5; i = i + 1) {
+          int count = 0;
+ 
+           for ( j = 0; j < 5; i = i + 1) {
+              if(n[j] == n[i]) {
+              count++;
+ 
+           if (count > mode) {
+              mode = count;
+              num = n[i];
+            }
+        }
+        }
+      }
+           printf("Mode: %d", n[i]);
+ 
+      
+      return 0;
+      
+}
+ 
+    
+ 
 
