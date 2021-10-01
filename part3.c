@@ -4,7 +4,7 @@ int main() {
 
     
 
-    int n{5]; 
+    int n[5]; 
     for(int i = 0; i < 5; i++) {
         printf("Enter number: ");
         scanf("%d", &n[i]);
@@ -23,7 +23,7 @@ int main() {
             if( n[j] > n[j + 1] ) { 
                 int temp = n[j]; 
                 n[j] = n[j + 1]; 
-                n[j + 1]temp;
+                n[j + 1] = temp;
             }
         }
     }
@@ -34,18 +34,21 @@ int main() {
       for( int i = 0; i < 5; i = i + 1) {
           int count = 0;
  
-           for ( j = 0; j < 5; i = i + 1) {
+           for ( j = 0; j < 5; j = j + 1) {
               if(n[j] == n[i]) {
-              count++;
- 
+                 count++;
+              }
+           }
+      
+
            if (count > mode) {
               mode = count;
               num = n[i];
             }
         }
-        }
-      }
-           printf("Mode: %d", n[i]);
+        
+      
+           printf("Mode: %d", num);
  
       
       return 0;
