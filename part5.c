@@ -201,18 +201,18 @@ void J(int row) {
       switch(row)
       {
           case 0:
-                  printf(" #### ");
+                  printf(" ####  ");
               break;
           case 1:
-                  printf("  #   ");
+                  printf("  #    ");
               break;
           case 2:
-                  printf("  #   ");
+                  printf("  #    ");
               break;
           case 3:
-                  printf("  #   ");
+                  printf("  #  # ");
               break;
-          case 4: printf("  ### ");
+          case 4: printf("   ### ");
               break;
           default:
               break;
@@ -243,18 +243,18 @@ void K(int row) {
       switch(row)
       {
           case 0:
-                  printf(" #    ");
+                  printf(" #     ");
               break;
           case 1:
-                  printf(" #    ");
+                  printf(" #     ");
               break;
           case 2:
-                  printf(" #    ");
+                  printf(" #     ");
               break;
           case 3:
-                  printf(" #    ");
+                  printf(" #     ");
               break;
-          case 4: printf(" #### ");
+          case 4: printf("  #### ");
               break;
           default:
               break;
@@ -265,18 +265,18 @@ void M(int row) {
       switch(row)
       {
           case 0:
-                  printf(" #   # ");
+                  printf(" #     # ");
               break;
           case 1:
-                  printf(" # # # ");
+                  printf(" #  #  # ");
               break;
           case 2:
-                  printf(" # # # ");
+                  printf(" #  #  # ");
               break;
           case 3:
-                  printf(" #   # ");
+                  printf(" #     # ");
               break;
-          case 4: printf(" #   # ");
+          case 4: printf(" #     # ");
               break;
           default:
               break;
@@ -287,18 +287,18 @@ void N(int row) {
       switch(row)
       {
           case 0:
-                  printf(" #     # ");
+                  printf("  #     #  ");
               break;
           case 1:
-                  printf(" #  #  # ");
+                  printf("  #  #  #  ");
               break;
           case 2:
-                  printf(" #   # # ");
+                  printf("  #   # #  ");
               break;
           case 3:
-                  printf(" #    ## ");
+                  printf("  #    ##  ");
               break;
-          case 4: printf(" #     # ");
+          case 4: printf("  #      # ");
               break;
           default:
               break;
@@ -308,18 +308,18 @@ void O(int row) {
       switch(row)
       {
           case 0:
-                  printf(" #### ");
+                  printf("  ###  ");
               break;
           case 1:
-                  printf(" #  # ");
+                  printf(" #   # ");
               break;
           case 2:
-                  printf(" #  # ");
+                  printf(" #   # ");
               break;
           case 3:
-                  printf(" #  # ");
+                  printf(" #   # ");
               break;
-          case 4: printf(" #### ");
+          case 4: printf("  ###  ");
               break;
           default:
               break;
@@ -341,7 +341,7 @@ void  P(int row) {
           case 3:
                   printf(" #    ");
               break;
-          case 4: printf(" #    ");
+          case 4: printf("  #   ");
               break;
           default:
               break;
@@ -351,18 +351,18 @@ void  Q(int row) {
       switch(row)
       {
           case 0:
-                  printf(" ###    ");
+                  printf(" ###     ");
               break;
           case 1:
-                  printf(" #   #  ");
+                  printf(" #   #   ");
               break;
           case 2:  
-                  printf(" #    # ");
+                  printf(" #    #  ");
               break;
           case 3:
-                  printf(" #  # # ");
+                  printf(" #  # #  ");
               break;
-          case 4: printf(" #####  ");
+          case 4: printf("  #####  ");
               break;
           default:
               break;
@@ -376,15 +376,15 @@ void  R(int row) {
                   printf(" #### ");
               break;
           case 1:
-                  printf(" #  # ");
+                  printf(" #  #  ");
               break;
           case 2:
-                  printf(" #### ");
+                  printf(" ####  ");
               break;
           case 3:
-                  printf(" #  # ");
+                  printf(" #  #  ");
               break;
-          case 4: printf(" #   #");
+          case 4: printf(" #   # ");
               break;
           default:
               break;
@@ -397,13 +397,13 @@ void  S(int row) {
                   printf(" ####  ");
               break;
           case 1:
-                  printf(" #   # ");
+                  printf(" #   #  ");
               break;
           case 2:
                   printf("   #   ");
               break;
           case 3:
-                  printf("#   #  ");
+                  printf("#  #   ");
               break;
           case 4: printf(" ####  ");
               break;
@@ -426,7 +426,7 @@ void T(int row) {
           case 3:
                   printf("   #   ");
               break;
-          case 4: printf("   #   ");
+          case 4: printf("    #   ");
               break;
           default:
               break;
@@ -437,18 +437,18 @@ void U(int row) {
       switch(row)
       {
           case 0:
-                  printf(" #  # ");
+                  printf(" #   # ");
               break;
           case 1:
-                  printf(" #  # ");
+                  printf(" #   # ");
               break;
           case 2:
-                  printf(" #  # ");
+                  printf(" #   # ");
               break;
           case 3:
-                  printf(" #  # ");
+                  printf(" #   # ");
               break; 
-          case 4: printf(" #### ");
+          case 4: printf("  ###  ");
               break;
           default:
               break;
@@ -468,9 +468,9 @@ void V(int row) {
                   printf("   #  #   ");
               break;
           case 3:
-                  printf("   # #    ");
+                  printf("    # #    ");
               break;
-          case 4: printf("    #     ");
+          case 4: printf("     #     ");
               break;
           default:
               break;
@@ -481,18 +481,18 @@ void W(int row) {
       switch(row)
       {
           case 0:
-                  printf(" #     # ");
+                  printf(" #        # ");
               break;
           case 1:
-                  printf(" ##   ## ");
+                  printf(" #        # ");
               break;
           case 2:
-                  printf(" #  #  # ");
+                  printf("  #   #   #  ");
               break;
           case 3:
-                  printf(" #  #  # ");
+                  printf("  # #  # #  ");
               break;
-          case 4: printf(" ####### ");
+          case 4: printf("   #    #   ");
               break;
           default:
               break;
@@ -514,7 +514,7 @@ void X(int row) {
           case 3:
                   printf("  #  #  ");
               break;
-          case 4: printf(" #    # ");
+          case 4: printf("  #   # ");
               break;
           default:
               break;
