@@ -53,7 +53,7 @@ int main()
   char array[size_of_array][30];
 
   //Inputting names
-  printf("Enter %d Strings: \n", size_of_array);
+  printf("Enter %d Lower case letter strings: \n", size_of_array);
   for(int i=0; i<size_of_array; i++){
     scanf("%s", array[i]);
   }
