@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define size_of_array 3  //define size of the array
+//#define inputted_array 3  //size of the array
  
-//function to display array/ print out the whole array
-void display(char array[][30]){
-  for(int i=0; i<size_of_array; i++){
+//function to display array/then print out the inputted  array
+void display(char array[][40]){
+  for(int i=0; i<inputted_array; i++){
     printf("%s : %ld ", array[i], strlen(array[i]));
   }
   printf("\n");
 }
 
-void stringLength(char array[][30]){
-  char temp[30];
-  //Sort array using the Buuble Sort algorithm
-  for(int i=0; i<size_of_array; i++){
-    for(int j=0; j<size_of_array-1-i; j++){
+void stringLength(char array[][40]){
+  char temp[40];
+  // Buuble Sort
+  for(int i=0; i<inputted_array; i++){
+    for(int j=0; j<inputted_array-1-i; j++){
       if(strlen(array[j]) > strlen(array[j+1])){
         //swap array[j] and array[j+1]
         strcpy(temp, array[j]);
@@ -29,11 +29,11 @@ void stringLength(char array[][30]){
   display(array);
 }
 
-void alpha(char array[][30]){
-  char temp[30];
-  //Sort array using the Buuble Sort algorithm
-  for(int i=0; i<size_of_array; i++){
-    for(int j=0; j<size_of_array-1-i; j++){
+void alpha(char array[][40]){
+  char temp[40];
+  // Buuble Sort 
+  for(int i=0; i<inputted_array; i++){
+    for(int j=0; j<inputted_array-1-i; j++){
       if(strcmp(array[j], array[j+1]) > 0){
         //swap array[j] and array[j+1]
         strcpy(temp, array[j]);
@@ -49,12 +49,13 @@ void alpha(char array[][30]){
 
 int main()
 {
-  //create an array of strings
-  char array[size_of_array][30];
+  
+//create an array of strings
+  char array[inputted_array][40];
 
   //Inputting names
-  printf("Enter %d Lower case letter strings: \n", size_of_array);
-  for(int i=0; i<size_of_array; i++){
+  printf("Enter %d Lower case letter strings: \n", inputted_array);
+  for(int i=0; i<inputted_array; i++){
     scanf("%s", array[i]);
   }
 
