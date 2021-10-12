@@ -5,7 +5,7 @@
 #
 # Variables, length, width and perimeter. 
 CC=gcc
-myCode
+
 APP=myCode
 OBJ=$(APP).o
 EXE=$(APP).exe
