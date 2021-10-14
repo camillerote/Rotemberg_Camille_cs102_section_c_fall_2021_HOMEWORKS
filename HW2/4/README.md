@@ -1,2 +1,2 @@
-# README.md for hw-1 / problem-1
+# README.md for hw-2 / problem-4
 //Using the remainder command, I asked for user imput and of an amount of cents. With that input I first divided it by 25 to find the number of quarters, then with the remainder I divided it by 10 to find the amount of dimes, then with the dimes remainder I divided it by 5 to find the number of nickels. Finally after the number of nickels was found I defined that remainder as the number of pennies and printed it out with printf the amount of quarters, dimes, nickels and pennies.  
