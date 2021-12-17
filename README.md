@@ -1,1 +1,2 @@
 # Rotemberg_Camille_cs102_section_c_fall_2021_HOMEWORKS
+Python mini project. My EID101 group used the data of the inches of rain during hurrican IDA in New York County, but I wanted to comapare new york county to the other counties and the cities within them to give the reader either a comparison of the counties or of the cities. I plotted bar charts and scatter plots using pandas. In the excel I calculated the averages and included those in the city tab. 
