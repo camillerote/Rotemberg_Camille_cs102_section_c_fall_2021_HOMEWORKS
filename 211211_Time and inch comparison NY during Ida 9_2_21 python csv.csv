@@ -1,0 +1,65 @@
+City,County, Inches of Rain 
+Fordham,Bronx County,7.38
+Harlem,Bronx County,6
+Average,Bronx County,6.69
+Brooklyn,Kings County,7.76
+South Slope ,Kings County,7.01
+Prospect Park,Kings County,5.87
+Dyker Heights,Kings County,4.48
+Average,Kings County,6.28
+Glen Head ,Nassau County,4.87
+Oyster Bay,Nassau County,4.8
+East Hills ,Nassau County,4.46
+Valley Stream ,Nassau County,2.78
+Freeport ,Nassau County,2.49
+North Massapequa,Nassau County,2.48
+Average,Nassau County,3.65
+Midtown Manhattan,New York County,7.49
+Central Park ,New York County,7.19
+Battery Park,New York County,4.56
+Average,New York County,6.41
+Vails Gate ,Orange County,5.74
+Montgomery Airport ,Orange County,5.65
+Otisville,Orange County,5.25
+Average,Orange County,5.55
+Flushing,Queens County,6.9
+NYC/La Guardia,Queens County,6.89
+Kew Garden Hills,Queens County,5.77
+Beechhurst ,Queens County,3.9
+NYC/JFK Airport,Queens County,2.77
+Average,Queens County,5.25
+Staten Island,Richmond County,8.92
+College of Staten Island,Richmond County,8.31
+Eltingville,Richmond County,5.78
+Average,Richmond County,7.67
+Suffern,Rockland County,5.03
+New City,Rockland County,4.14
+Pomona,Rockland County,3.56
+Average,Rockland County,4.24
+East Setauket ,Suffolk County,6.86
+Miller Place,Suffolk County,6.69
+Centereach ,Suffolk County,6.63
+Stony Brook ,Suffolk County,6.03
+Saint James ,Suffolk County,5.02
+Southold,Suffolk County,3.72
+Smithtown,Suffolk County,3.23
+Montauk Airport,Suffolk County,3.2
+Islip,Suffolk County,2.63
+Upton,Suffolk County,2.4
+East Hampton ,Suffolk County,2.38
+Melville ,Suffolk County,2.18
+West Islip,Suffolk County,2.15
+Farmingdale Airport ,Suffolk County,2.01
+Westhampton Airport,Suffolk County,1.73
+Average,Suffolk County,3.79
+Mount Kisco,Westchester County,8.46
+New Rochelle,Westchester County,7.45
+Tarrytown ,Westchester County,6.96
+Armonk,Westchester County,6.78
+Ossining,Westchester County,6.44
+White Plains Airport,Westchester County,6.16
+Pleasantville,Westchester County,6.12
+Eastchester,Westchester County,6.06
+Elmsford,Westchester County,4.92
+Shrub Oak,Westchester County,4.57
+Average,Westchester County,6.39
